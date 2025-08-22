@@ -1,0 +1,68 @@
+
+
+body {
+  text-align: center;
+  height: 100vh;
+ background-image: url(https://images.pexels.com/photos/33355813/pexels-photo-33355813/free-photo-of-close-up-portrait-of-a-tabby-cat-with-yellow-eyes.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+
+
+h1 {
+  color: rgb(242, 243, 233);
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.general{
+    display: grid;
+    grid-template-columns: repeat(3,140px); /* Tamaño columnas */
+    grid-template-rows: repeat(3,150px);  /* Tamaño filas */
+    justify-content: center;
+}
+
+.cuadro{
+    border: 7px solid #eb33e1ee;
+    border-radius: 40px;
+    /* cada cuadrito individual */
+    background-color: #f3f5ee;
+}
+
+button{
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+button:hover {
+  background-color: #0c4b94; /* Cambia el color al pasar el cursor */
+ transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Botón de reinicio */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #c90953e1;
+  border: none;
+  border-radius: 10px;
+  color: rgb(255, 253, 255);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
+
+h3{
+  color: #f3f5ee;
+}
+
+ 
+
